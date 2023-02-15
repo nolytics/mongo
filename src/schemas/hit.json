@@ -1,0 +1,17 @@
+{
+    "bsonType": "object",
+    "title": "hit",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "client": {
+            "bsonType": "object",
+            "title": "client"
+        },
+        "metadata": {
+            "bsonType": "object",
+            "title": "metadata"
+        }
+    }
+}

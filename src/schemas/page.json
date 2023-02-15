@@ -1,0 +1,22 @@
+{
+    "bsonType": "object",
+    "title": "page",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "path": {
+            "bsonType": "string"
+        },
+        "hits": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "title": "hit"
+            }
+        }
+    }
+}
