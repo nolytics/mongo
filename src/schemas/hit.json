@@ -7,11 +7,27 @@
         },
         "client": {
             "bsonType": "object",
-            "title": "client"
+            "title": "client",
+            "properties": {
+                "anonymizedId": {
+                    "bsonType": "string"
+                },
+                "country": {
+                    "bsonType": "string"
+                }
+            }
         },
         "metadata": {
             "bsonType": "object",
-            "title": "metadata"
+            "title": "metadata",
+            "properties": {
+                "browser": {
+                    "bsonType": "string"
+                },
+                "isMobile": {
+                    "bsonType": "bool"
+                }
+            }
         }
     }
 }
