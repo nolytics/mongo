@@ -5,6 +5,9 @@
         "_id": {
             "bsonType": "objectId"
         },
+        "page_id": {
+            "bsonType": "objectId"
+        },
         "client": {
             "bsonType": "object",
             "title": "client",
