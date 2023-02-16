@@ -10,13 +10,6 @@
         },
         "path": {
             "bsonType": "string"
-        },
-        "hits": {
-            "bsonType": "array",
-            "items": {
-                "bsonType": "object",
-                "title": "hit"
-            }
         }
     }
 }
