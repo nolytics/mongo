@@ -5,8 +5,11 @@
         "_id": {
             "bsonType": "objectId"
         },
-        "page_id": {
+        "pageId": {
             "bsonType": "objectId"
+        },
+        "occurrenceTimeMS": {
+            "bsonType": "number"
         },
         "client": {
             "bsonType": "object",
